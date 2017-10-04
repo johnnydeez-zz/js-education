@@ -1,4 +1,21 @@
 <script>
+    // What is programming?
+    /*
+    All we're doing is taking in some kind of information, changing it slightly,
+    then sending it along somewhere else.
+    */
+
+    var myCountry = "United States";
+    console.log(myCountry);
+
+    var myCountryFormated = myCountry.toUpperCase();
+    console.log(myCountryFormated);
+
+    var myState = "California";
+
+    var myLocation = myCountry + ", " + myState;
+    console.log(myLocation);
+
     // What is the point of variables?
 
     // we could do this
@@ -103,6 +120,43 @@ console.log(
     for (country in countryData) {
        displayCountryInformationAdvanced(country, countryData[country]);
     }
+
+
+    // basic math
+    console.log(8+7);
+    var result = 8+7;
+    console.log(result);
+
+    // division
+    var population = 4000000;
+    var familySize = 3.1;
+    var familyCount = (population / familySize);
+
+    // decimal places
+    console.log(familyCount);
+    console.log(familyCount.toFixed(2));
+
+    // percents
+    var totalTrades = 145;
+    var longTrades = 65;
+    var shortTrades = 80;
+
+    // % short trades
+    var decimalPercentShortTrades = (shortTrades / totalTrades);
+    console.log(decimalPercentShortTrades);
+
+    var percentShortTrades = (decimalPercentShortTrades * 100);
+    console.log(percentShortTrades.toFixed(0) + "%");
+
+
+
+
+
+
+
+
+
+
 
 </script>
 
